@@ -10,6 +10,6 @@ let name = ["planet","moon"]
 
 for(let i = 0; i<10;i++){
     let random = Math.floor(Math.random()*2);
-    let position = [Math.trunc(Math.random()*100) + "px", Math.trunc(Math.random()*100) + "px"];
+    let position = [Math.trunc(Math.random()*1000) + "px", Math.trunc(Math.random()*1000) + "px"];
     newObject(name[random],position);
 }
